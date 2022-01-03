@@ -33,7 +33,7 @@ Validation /
 ```
 +Java
 +Code Style
-+Fomatter
++Formatter
 ```
 
 - [Original do Google](eclipse-java-google-style.xml)
