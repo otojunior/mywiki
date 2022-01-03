@@ -20,3 +20,9 @@ sudo usermod -aG docker $USER
 echo "sudo service docker start" | tee -a ~/.bashrc
 echo "$USER ALL=(ALL) NOPASSWD:ALL" | sudo tee -a "/etc/sudoers.d/$USER"
 alias dockerps="docker ps -a"
+
+# Limpeza
+sudo apt autoremove
+sudo apt autoclean
+sudo apt clean
+sudo apt clean cache
