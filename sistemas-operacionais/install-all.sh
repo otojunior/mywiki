@@ -18,13 +18,13 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sh ./get-docker.sh
 sudo groupadd docker
 sudo usermod -aG docker $USER
-echo "sudo service docker start" | tee -a ~/.bashrc
+echo "sudo service docker start" | tee -a /home/$USER/.bashrc
+echo "alias dockerps='docker ps -a'" | tee -a /home/$USER/.bash_aliases
 echo "$USER ALL=(ALL) NOPASSWD:ALL" | sudo tee -a "/etc/sudoers.d/$USER"
-alias dockerps="docker ps -a"
 
 # Limpeza
 sudo apt autoremove
 sudo apt autoclean
 sudo apt clean
 sudo apt clean cache
-exit
+source /home/$USER/.bashrc
