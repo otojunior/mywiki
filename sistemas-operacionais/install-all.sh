@@ -7,6 +7,7 @@ sudo apt install build-essential default-jdk-headless maven python3 python-is-py
 
 # NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source /home/$USER/.bashrc
 nvm install --lts=Dubnium
 nvm install --lts=Erbium
 nvm install --lts=Fermium
@@ -26,3 +27,4 @@ sudo apt autoremove
 sudo apt autoclean
 sudo apt clean
 sudo apt clean cache
+exit
