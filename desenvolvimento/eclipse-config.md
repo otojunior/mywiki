@@ -17,7 +17,7 @@
 +General
 +Editors
 +Text Editors
-+Annotations page:
++Annotations:
   "Debug Current Instruction Pointer"
 ```
 
@@ -38,6 +38,16 @@ Validation /
 
 - [Original do Google](eclipse-java-google-style.xml)
 - [Customizado](eclipse-java-google-style-custom.xml)
+
+### 
+
+```
++Java
++Editor
++Save Actions
+  - [ON] Todos os checkbox
+  - [ON] Format all lines
+```
 
 ### Template Customizado:
 
