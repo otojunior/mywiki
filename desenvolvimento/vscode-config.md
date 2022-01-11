@@ -30,6 +30,7 @@
 ## Fonte Recomendada
 
 - [Fira Code](https://fonts.google.com/specimen/Fira+Code)
+- [JetBrains Mono](https://fonts.google.com/specimen/JetBrains+Mono)
 
 ---
 
