@@ -34,6 +34,19 @@
 
 ---
 
+## Configurações para Python
+
+### Uso do PipEnv
+
+- Instalação: `pip install --user pipenv`
+- Inicialização do projeto: `pipenv --three`
+- No VSCode:
+  - Abrir arquivo Python (.py)
+  - No rodapé à esquerda, escolher o interpretador Python do ambiente virtual
+  - Quando executar (Ctrl+F5) o script (.py), ele executará no ambiente virtual
+  - No Setting do projeto (settings.json), entrar com a propriedade: `"python.analysis.autoSearchPaths": true`
+
+
 ### Caminho do Python instalado pelo Chocolatey
 
 - C:\Python310
