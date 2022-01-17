@@ -55,4 +55,3 @@
 $>py -m site --user-site
 C:\Users\otoju\AppData\Roaming\Python\Python310\site-packages
 ```
-
