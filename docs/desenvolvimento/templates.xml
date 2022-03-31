@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="javadoc" deleted="false" description="Cabeçalho de Classe RAES" enabled="true" name="raes">${cursor}&#13; *&#13;
+ * @author Oto Soares Coelho Junior (014.562.316-50) #31 3311-6720&#13; * @since ${d:date('dd/MM/YYYY')} - PUCOMEX-RAES - Release NN</template></templates>

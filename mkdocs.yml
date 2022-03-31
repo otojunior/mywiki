@@ -1,0 +1,16 @@
+site_name: SERPRO-Wiki
+nav:
+  - Home: index.md
+  - Desenvolvimento:
+    - Configuração do Eclipse/STS: desenvolvimento/eclipse-config.md
+    - Configuração do VSCode: desenvolvimento/vscode-config.md
+  - Certificados:
+    - Links: certificados/links.md
+    - Operação com Certificados: certificados/operacao-certificados.md
+    - Solicitação Certificados SERPRO:
+      - Homologação: certificados/req-cert-serpro-homologacao.md
+  - Estaleiro:
+    - Configuração Docker: estaleiro/docker.md
+  - Sistemas Operacionais:
+    - Instalação Ubuntu WSL2: sistemas-operacionais/ubuntu-wsl.md
+theme: readthedocs
